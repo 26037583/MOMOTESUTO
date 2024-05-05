@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561271416}
   - component: {fileID: 561271415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   m_Layer: 0
   m_Name: groundcheck
   m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -285,7 +285,7 @@ Transform:
   m_GameObject: {fileID: 688698537}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.146, z: 0}
+  m_LocalPosition: {x: 0, y: -1.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 1220362371}
   - component: {fileID: 1220362370}
   - component: {fileID: 1220362372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,8 +806,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000008940697, y: 0.00045356154}
-  m_Size: {x: 1.6976005, y: 2.6836536}
+  m_Offset: {x: 0.000008940697, y: 0.055630982}
+  m_Size: {x: 1.6976005, y: 2.5733032}
   m_Direction: 0
 --- !u!50 &1277081709
 Rigidbody2D:
@@ -851,10 +851,10 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 10
   crouchSpeed: 2
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 688698538}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   rb: {fileID: 1277081709}
   anim: {fileID: 0}
   coll: {fileID: 0}
