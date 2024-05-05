@@ -1,0 +1,4 @@
+repository "セカンドゲーム@momoSutdio@cloud"
+  path "/"
+    br "/main"
+    co "/main"
