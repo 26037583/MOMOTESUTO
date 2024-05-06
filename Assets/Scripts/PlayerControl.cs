@@ -107,7 +107,7 @@ public class CharacterController2D : MonoBehaviour
     void Attack()
     {
         // ¼½©ñ§ðÀ»°Êµe
-        anim.SetBool("Attack", true);
+        anim.SetBool("Attack2", true);
 
         if(isGrounded)
         {
